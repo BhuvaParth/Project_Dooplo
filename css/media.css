@@ -1,0 +1,242 @@
+/* ---- header ---- */
+@media (max-width: 768px) {
+    .top-header .content{
+        display: flow-root !important;
+    }
+    .top-header .content .left-content{
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+    .top-header .content .right-content{
+        text-align: center !important;
+    }
+}
+/* ---- Main-Menu-area ---- */
+@media (max-width: 1200px) {
+    .header .menubar-area .navbar::before{
+        content: none !important;
+    }
+    .header .menubar-area .navbar::after{
+        content: none !important;
+    }
+    .container-fluid .navbar-brand{
+        padding: 0px 0px 0px 5px !important;
+    }
+    .header .menubar-area .navbar .btn1{
+        font-size: 12px;
+        margin-left: 15px;
+        padding: 10px 29px !important;
+    }
+}
+/* ---- hero-area ---- */
+@media (max-width: 991px) {
+    .hero-area{
+        padding: 165px 0px 695px !important;
+    }
+}@media (max-width: 992px) {
+    .hero-area .hero-img{
+        top: 40px !important;
+    }
+}@media (max-width: 767px) {
+    .hero-area{
+        padding: 280px 0px 280px !important;
+
+    }
+}
+/* ---- hero-text-area ---- */
+@media (max-width: 767px) {
+    .hero-area .left-content{
+        text-align: center !important;
+    }
+    .hero-area .left-content .content .sub-title{
+        font-size: 24px !important;
+        line-height: 34px !important;
+    }
+    .hero-area .left-content .content .title{
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+    .hero-area .left-content .content .text{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+}
+/* ---- hero-img-area ---- */
+@media (max-width: 1400px) {
+    .hero-area .hero-img{
+        left: 0px !important;
+    }
+    .hero-area .hero-img .shape.bitcoin2{
+        right: 62px !important;
+    }
+    .hero-area .hero-img .shape.shape-icon{
+        right: 5px !important;
+    }
+    .hero-area .hero-img .shape.ripple{
+        right: 77px !important;
+    }
+    .hero-area .hero-img .shape.award-bg{
+        right: 33px !important;
+    }
+    .hero-area .hero-img .shape.award{
+        right: 58px !important;
+    }
+}
+/* ---- feature-crad-area ---- */
+@media (max-width: 992px) {
+    .features{
+        padding-bottom: 80px !important;
+    }
+    .features .single-features{
+        margin-bottom: 30px !important;
+        display: block !important;
+    }
+}
+/* ---- feature-game-text-area ---- */
+@media (max-width: 992px) {
+    .heading-section .subtitle{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    .heading-section .title{
+        font-size: 40px !important;
+        line-height: 50px;
+    }
+    .heading-section .text{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+} 
+/* ------ game-slider-card ---- */
+@media (max-width: 1400px) {
+    .game-slider .owl-item{
+        width: 372px !important;
+    }
+}@media (max-width: 1200px) {
+    .game-slider .owl-item{
+        width: 312px !important;
+    }
+}@media (max-width: 992px) {
+    .game-slider .owl-item{
+        width: 348px !important;
+    }
+}@media (max-width: 768px) {
+    .game-slider .owl-item{
+        width: 516px !important;
+    }
+}@media (max-width: 576px) {
+    .game-slider .owl-item{
+        width: 551px !important;
+    }
+}@media (max-width: 560px) {
+    .game-slider .owl-item{
+        width: 536px !important;
+    }
+}@media (max-width: 546px) {
+    .game-slider .owl-item{
+        width: 522px !important;
+    }
+}@media (max-width: 531px) {
+    .game-slider .owl-item{
+        width: 507px !important;
+    }
+}@media (max-width: 516px) {
+    .game-slider .owl-item{
+        width: 492px !important;
+    }
+}@media (max-width: 502px) {
+    .game-slider .owl-item{
+        width: 470px !important;
+    }
+}@media (max-width: 480px) {
+    .game-slider .owl-item{
+        width: 450px !important;
+    }
+}@media (max-width: 460px) {
+    .game-slider .owl-item{
+        width: 430px !important;
+    }
+}@media (max-width: 440px) {
+    .game-slider .owl-item{
+        width: 410px !important;
+    }
+}@media (max-width: 420px) {
+    .game-slider .owl-item{
+        width: 380px !important;
+    }
+}@media (max-width: 390px) {
+    .game-slider .owl-item{
+        width: 360px !important;
+    }
+}@media (max-width: 370px) {
+    .game-slider .owl-item{
+        width: 340px !important;
+    }
+}@media (max-width: 350px) {
+    .game-slider .owl-item{
+        width: 320px !important;
+    }
+}
+/* ----- latest-activities-area ---- */
+@media (max-width: 768px) {
+    .activities .shape.shape1,
+    .activities .shape.shape2,
+    .activities .shape.shape3{
+        display: none;
+    }
+}
+/* ---- tab-area ----- */
+@media (max-width: 768px) {
+    .activities .tab-menu-area .nav-lend{
+        padding: 14px 15px !important;
+    }
+    .activities .tab-menu-area .nav-lend .nav-item .nav-link{
+        padding: 0px 30px !important;
+        font-size: 16px !important;
+        line-height: 40px !important;
+        margin: 3px !important;
+    }
+}
+/* ------- funfack-area ------- */
+@media (max-width: 991px) {
+    .fanfack .single-fun .count-area{
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+}
+/* ------- get-start-area ------- */
+@media (max-width: 768px) {
+    .get-start .left-area .heading-section{
+        text-align: center !important;
+    }
+}
+@media (max-width: 992px) {
+    .right-img{
+        margin-top: 60px;
+    }
+}
+/* ------ recent-winner ------- */
+@media (max-width: 992px) {
+    .single-winner{
+        margin-bottom: 30px;
+    }
+    .recent-winner .btn2{
+        margin-top: 30px !important;
+    }
+}
+/* ------ footer-area ------ */
+@media (max-width: 992px) {
+    .footer .footer-widget .title{
+        text-transform: uppercase !important;
+        font-size: 24px !important;
+        line-height: 34px !important;
+        margin-bottom: 8px !important;
+    }
+    .footer .footer-widget{
+        margin-top: 22px !important;
+    }
+    .footer .copy-right-area .left-area,
+    .footer .copy-right-area .right-area{
+        text-align: center !important;
+    }
+}
